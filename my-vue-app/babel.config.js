@@ -1,5 +1,5 @@
-module.exports = {
-  presets: [
-    '@vue/cli-plugin-babel/preset'
-  ]
-}
+export const books = [
+  { id: 1, title: 'Название книги 1', author: 'Автор 1' },
+  { id: 2, title: 'Название книги 2', author: 'Автор 2' },
+  // Добавьте больше книг здесь...
+];
